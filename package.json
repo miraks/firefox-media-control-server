@@ -1,0 +1,23 @@
+{
+  "name": "firefox-media-control-server",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/miraks/firefox-media-control-server",
+  "author": "Alexey Volodkin <a@vldkn.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "yarn run build -- -w"
+  },
+  "dependencies": {
+    "dbus-native": "^0.2.0",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
