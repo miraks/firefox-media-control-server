@@ -3,7 +3,7 @@ import emitter from './emitter'
 
 module.exports = () => {
   const bus = dbus.sessionBus()
-  const service = bus.getService('org.gnome.SettingsDaemon')
+  const service = bus.getService('org.gnome.SettingsDaemon.MediaKeys')
 
   service.getInterface(
     '/org/gnome/SettingsDaemon/MediaKeys',
