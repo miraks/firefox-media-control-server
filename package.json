@@ -1,6 +1,6 @@
 {
   "name": "media-control-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "repository": "https://github.com/miraks/firefox-media-control-server",
   "author": "Alexey Volodkin <a@vldkn.net>",

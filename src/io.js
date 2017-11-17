@@ -19,3 +19,8 @@ emitter.on('key', (key) => {
   const message = { command: keyMap[key] }
   write(message)
 })
+
+process.stdin.on('readable', () => {
+  const data = process.stdin.read(4)
+  if (data === null) process.exit()
+})
