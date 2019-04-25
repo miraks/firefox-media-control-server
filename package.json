@@ -6,13 +6,13 @@
   "author": "Alexey Volodkin <a@vldkn.net>",
   "license": "MIT",
   "dependencies": {
-    "dbus-native": "^0.2.0"
+    "dbus-native": "^0.4.0"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "prettier": "^1.7.4",
-    "prettier-eslint": "^8.2.1"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "prettier": "^1.17.0",
+    "prettier-eslint": "^8.8.2"
   }
 }
