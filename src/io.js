@@ -1,11 +1,9 @@
 const emitter = require('./emitter')
 
 const keyMap = {
-  Play: 'toggle',
-  Pause: 'toggle',
-  Stop: 'toggle',
-  Previous: 'prev',
-  Next: 'next'
+  playpausemedia: 'toggle',
+  previousmedia: 'prev',
+  nextmedia: 'next'
 }
 
 const write = (message) => {
