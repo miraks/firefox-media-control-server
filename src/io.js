@@ -1,11 +1,5 @@
 const emitter = require('./emitter')
 
-const keyMap = {
-  playpausemedia: 'toggle',
-  previousmedia: 'prev',
-  nextmedia: 'next'
-}
-
 const write = (message) => {
   const data = JSON.stringify(message)
   const length = Buffer.from(new Uint32Array([data.length]).buffer)
@@ -13,8 +7,8 @@ const write = (message) => {
   process.stdout.write(data)
 }
 
-emitter.on('key', (key) => {
-  const message = { command: keyMap[key] }
+emitter.on('command', (command) => {
+  const message = { command }
   write(message)
 })
 
